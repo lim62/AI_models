@@ -541,7 +541,7 @@ section[data-astro-cid-j7pv25f6]:last-of-type:after {
     border: 1px solid rgba(96, 165, 250, .3);
     border-radius: var(--radius-2xl);
     padding: 2rem 1.5rem;
-    margin: 2rem auto;
+    margin: 4rem auto;
     max-width: 550px;
     position: relative;
     overflow: hidden;
