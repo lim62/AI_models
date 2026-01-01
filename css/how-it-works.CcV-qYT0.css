@@ -5279,7 +5279,7 @@ section .reveal-fade.is-revealed {
 @media(max-width:768px) {
 
     .reveal-bounce {
-        transform: scale(.5) translateZ(0)
+        transform: scale(1) translateZ(0)
     }
 
     .pricing-card:hover {
