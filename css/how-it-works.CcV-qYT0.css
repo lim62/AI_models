@@ -5278,15 +5278,6 @@ section .reveal-fade.is-revealed {
 
 @media(max-width:768px) {
 
-    .reveal-slide-left,
-    .reveal-slide-right {
-        transform: translate(-40px) translateZ(0)
-    }
-
-    .reveal-slide-right {
-        transform: translate(40px) translateZ(0)
-    }
-
     .reveal-bounce {
         transform: scale(.5) translateZ(0)
     }
