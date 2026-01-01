@@ -1326,7 +1326,8 @@ img.loaded {
 
 .container {
     contain: layout style;
-    transform: translateZ(0)
+    transform: translateZ(0);
+    margin: auto;
 }
 
 .reveal-fade:not(.is-revealed),
