@@ -4280,12 +4280,10 @@ section:last-of-type:after {
 
 .faq-answer {
     display: grid;
-    grid-template-rows: 0fr;
     overflow: hidden;
     opacity: 0;
     transition: grid-template-rows .4s cubic-bezier(.34, 1.56, .64, 1), opacity .4s cubic-bezier(.34, 1.56, .64, 1), padding .4s cubic-bezier(.34, 1.56, .64, 1);
-    padding: 0 2rem;
-    max-height: 0;
+    padding: 1rem 2rem;
     margin: 0
 }
 
