@@ -540,8 +540,8 @@ section:last-of-type:after {
 @media(min-width:768px) {
     .work-step {
         margin-bottom: 2rem;
-        width: calc(50% - 1.25rem + 50px) !important;
-        max-width: calc((1400px - 2.5rem)/2 + 50px) !important;
+        width: 50%;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto
     }
