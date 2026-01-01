@@ -1197,7 +1197,7 @@ main,
 }
 
 .reveal-up {
-    transform: translateY(40px)translateZ(0)
+    opacity: 1;
 }
 
 .reveal-up.is-revealed {
