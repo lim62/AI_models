@@ -388,7 +388,7 @@
     }
   </style>
   <!-- CRITICAL: Remove no-js class immediately to enable JavaScript features --><!-- This MUST run before any content renders to enable progressive enhancement --><!-- If this script doesn't run, .no-js class remains and content stays visible (graceful degradation) -->
-  <script>
+  <script defer>
     (function () {
       // Remove no-js class immediately - indicates JavaScript is enabled
       // If this doesn't run, .no-js remains and CSS fallbacks ensure content is visible
@@ -400,7 +400,7 @@
     })();
   </script>
   <!-- CRITICAL: Blocking script to hide content IMMEDIATELY if navigating --><!-- This MUST run before any content renders to prevent flash --><!-- This script has HIGHEST priority and runs before critical.css applies -->
-  <script>
+  <script defer>
     (function () {
       // Safe sessionStorage wrapper for iOS Safari private mode and other edge cases
       // Professional implementation with comprehensive error handling
@@ -529,14 +529,14 @@
       }
     })();
   </script><!-- Polyfill for async CSS loading -->
-  <script>
+  <script defer>
     /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
     (function (w) { "use strict"; var loadCSS = function (href, before, media) { var doc = w.document; var ss = doc.createElement("link"); var ref; if (before) { ref = before } else { var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes; ref = refs[refs.length - 1] } var sheets = doc.styleSheets; ss.rel = "stylesheet"; ss.href = href; ss.media = "print"; ss.onload = function () { ss.media = media || "all"; ss.onload = null }; ref.parentNode.insertBefore(ss, ref.nextSibling); return ss }; if (typeof exports !== "undefined") { exports.loadCSS = loadCSS } else { w.loadCSS = loadCSS } }(typeof global !== "undefined" ? global : this));
   </script><!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="manifest" href="/manifest.webmanifest">
   <!-- Service Worker Registration --><!-- CACHING STRATEGY: Optimized registration with update checking -->
-  <script>
+  <script defer>
     (function () {
       'use strict';
 
@@ -588,7 +588,7 @@
     3. Use intersection-observer package (official W3C polyfill)
     4. Fallback gracefully if polyfill fails to load
   -->
-  <script>
+  <script defer>
     (function () {
       'use strict';
 
@@ -642,18 +642,18 @@
     })();
   </script>
   <!-- Telegram Mini App Safe Area Support --><!-- Telegram WebApp API - loads synchronously BEFORE inline scripts -->
-  <script src="js/telegram-web-app.js"></script><!-- JSON-LD Schema -->
-  <script
+  <script defer src="js/telegram-web-app.js"></script><!-- JSON-LD Schema -->
+  <script defer
     type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AI Model 2.0","url":"https://illariooo.ru/how-it-works/","inLanguage":"ru-RU","potentialAction":{"@type":"SearchAction","target":"https://illariooo.ru/?q={search_term_string}","query-input":"required name=search_term_string"},"publisher":{"@type":"Organization","name":"AI Model 2.0","url":"https://illariooo.ru"}}</script>
   <!-- Pass UTM params to client -->
-  <script>
+  <script defer>
     try {
       window.utmParams = {};
     } catch (e) {
       window.utmParams = {};
     }
   </script><!-- Initialize UTM, Telegram WebApp and CTA links (consolidated) -->
-  <script>
+  <script defer>
     (function () {
 
       const win = window;
