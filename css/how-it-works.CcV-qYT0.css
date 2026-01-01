@@ -513,7 +513,7 @@ section:last-of-type:after {
 
 .stacking-cards-container {
     position: relative;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     padding-bottom: 0;
     padding-left: 0;
