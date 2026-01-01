@@ -5287,3 +5287,41 @@ section .reveal-fade.is-revealed {
         transform: translateY(-1px) scale(1.01) translateZ(0)
     }
 }
+
+@media (max-width: 768px) {
+
+  /* prevent horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* force steps to stack vertically */
+  .how-it-works,
+  .how-it-works * {
+    max-width: 100%;
+  }
+
+  .how-it-works {
+    display: block !important;
+  }
+
+  /* if steps/cards are flex */
+  .how-it-works .steps,
+  .how-it-works .cards,
+  .how-it-works .items {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  /* remove desktop offsets */
+  .how-it-works * {
+    margin-left: 0 !important;
+    transform: none !important;
+  }
+
+@media (max-width: 768px) {
+  * {
+    max-width: 100vw !important;
+  }
+}
