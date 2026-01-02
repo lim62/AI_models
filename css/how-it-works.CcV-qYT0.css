@@ -4476,8 +4476,8 @@ section:last-of-type:after {
 
     .work-step {
         padding: 2rem 1.5rem;
-        width: calc(100% + 50px) !important;
-        max-width: calc(100% + 50px) !important;
+        width: 100% !important;
+        max-width: 100% !important;
         margin-left: -25px !important;
         margin-right: -25px !important
     }
