@@ -1092,8 +1092,8 @@ input[type=reset]:not([disabled]),
 
 @media(min-width:768px) {
     .container {
-        padding-left: 0rem;
-        padding-right: 0rem
+        padding-left: 2rem;
+        padding-right: 2rem
     }
 }
 
